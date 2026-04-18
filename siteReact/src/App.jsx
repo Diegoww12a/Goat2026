@@ -1,6 +1,6 @@
 import Header from "./components/header";
 import { useState } from "react";
-import Hero from "./components/Hero";
+import Hero from "./components/hero";
 
 export default function App() {
   const [pagina, setPagina] = useState("inicio");
