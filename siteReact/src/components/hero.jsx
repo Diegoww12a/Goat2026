@@ -92,21 +92,21 @@ const use = [
 // const resultado = cards.filter(p => p.nome.toLowerCase().includes(busca.toLowerCase()))
 
   const cards = [
-  { id: 1, nome: "Pack Destaque", descricao: "➡️ Os itens mais procurados da semana em um só pack.", imagens:["public/caixa.png"], categoria: "Principais", icon: faMedal, valor: 80 },
-  { id: 2, nome: "Pack Semanal", descricao: "➡️ Novos itens toda semana com descontos especiais.", imagens:["public/caixanova.png"], categoria: "Principais", icon: faMedal, valor: 40 },
-  { id: 3, nome: "Pack Especial", descricao: "➡️ Edição limitada com itens que não voltam mais.", imagens:["public/caixanova.png"], categoria: "Principais", icon: faMedal, valor: 120 },
-  { id: 4, nome: "Caixa Verão", descricao: "➡️ Abra e ganhe itens exclusivos da temporada de verão.", imagens:["public/caixanova.png"] , categoria: "Caixas", icon: faUserGroup, valor: 50 },
-  { id: 5, nome: "Caixa Neon", descricao: "➡️ Itens com visual neon que vão destacar seu personagem.", imagens:["public/caixa.png"], categoria: "Caixas", icon: faUserGroup, valor: 75 },
-  { id: 6, nome: "Caixa Eclipse", descricao: "➡️ Itens sombrios e misteriosos para os mais ousados.", imagens:["public/caixanova.png"], categoria: "Caixas", icon: faUserGroup, valor: 100 },
-  { id: 7, nome: "Premium Starter", descricao: "➡️ Acesse o modo ranqueado e comece sua jornada competitiva.", imagens:["public/caixa.png"], categoria: "Premium", icon: faGem, valor: 13 },
-  { id: 8, nome: "Premium Boost", descricao: "➡️ Ganhe XP em dobro e suba de nível mais rápido.", imagens:["public/vip.png"], categoria:  "Premium", icon: faGem, valor: 30 },
-  { id: 9, nome: "Premium Max", descricao: "➡️ Acesso completo a todos os modos e benefícios exclusivos.", imagens:["public/sub.png"], categoria: "Premium", icon: faGem, valor: 50 },
-  { id: 10, nome: "Clã Fênix", descricao: "➡️ Entre em um clã ativo e dispute campeonatos em equipe.", imagens:["public/cla.png"], categoria: "Clãs", icon: faTrophy, valor: 20 },
-  { id: 11, nome: "Clã Titan", descricao: "➡️ Compita com os melhores jogadores do servidor.", imagens:["public/cla.png"], categoria: "Clãs", icon: faTrophy, valor: 35 },
-  { id: 12, nome: "Clã Vortex", descricao: "➡️ Um clã de alto nível para jogadores experientes.", imagens:["public/cla.png"], categoria: "Clãs", icon: faTrophy, valor: 60 },
-  { id: 13, nome: "Token Prata", descricao: "➡️ Troque por itens exclusivos na loja de tokens.", imagens:["public/token.png"], categoria: "Token de Troca", icon: faStar, valor: 10 },
-  { id: 14, nome: "Token Ouro", descricao: "➡️ Acesse itens raros disponíveis apenas com tokens.",imagens:["public/token.png"],  categoria: "Token de Troca", icon: faStar, valor: 25 },
-  { id: 15, nome: "Token Platina", descricao: "➡️ O token mais valioso, com acesso aos itens mais cobiçados.", imagens:["public/token.png"], categoria: "Token de Troca", icon: faStar, valor: 45 },
+  { id: 1, nome: "Pack Destaque", descricao: "➡️ Os itens mais procurados da semana em um só pack.", imagens:["/caixa.png"], categoria: "Principais", icon: faMedal, valor: 80 },
+  { id: 2, nome: "Pack Semanal", descricao: "➡️ Novos itens toda semana com descontos especiais.", imagens:["/caixanova.png"], categoria: "Principais", icon: faMedal, valor: 40 },
+  { id: 3, nome: "Pack Especial", descricao: "➡️ Edição limitada com itens que não voltam mais.", imagens:["/caixanova.png"], categoria: "Principais", icon: faMedal, valor: 120 },
+  { id: 4, nome: "Caixa Verão", descricao: "➡️ Abra e ganhe itens exclusivos da temporada de verão.", imagens:["/caixanova.png"] , categoria: "Caixas", icon: faUserGroup, valor: 50 },
+  { id: 5, nome: "Caixa Neon", descricao: "➡️ Itens com visual neon que vão destacar seu personagem.", imagens:["/caixa.png"], categoria: "Caixas", icon: faUserGroup, valor: 75 },
+  { id: 6, nome: "Caixa Eclipse", descricao: "➡️ Itens sombrios e misteriosos para os mais ousados.", imagens:["/caixanova.png"], categoria: "Caixas", icon: faUserGroup, valor: 100 },
+  { id: 7, nome: "Premium Starter", descricao: "➡️ Acesse o modo ranqueado e comece sua jornada competitiva.", imagens:["/caixa.png"], categoria: "Premium", icon: faGem, valor: 13 },
+  { id: 8, nome: "Premium Boost", descricao: "➡️ Ganhe XP em dobro e suba de nível mais rápido.", imagens:["/vip.png"], categoria:  "Premium", icon: faGem, valor: 30 },
+  { id: 9, nome: "Premium Max", descricao: "➡️ Acesso completo a todos os modos e benefícios exclusivos.", imagens:["/sub.png"], categoria: "Premium", icon: faGem, valor: 50 },
+  { id: 10, nome: "Clã Fênix", descricao: "➡️ Entre em um clã ativo e dispute campeonatos em equipe.", imagens:["/cla.png"], categoria: "Clãs", icon: faTrophy, valor: 20 },
+  { id: 11, nome: "Clã Titan", descricao: "➡️ Compita com os melhores jogadores do servidor.", imagens:["/cla.png"], categoria: "Clãs", icon: faTrophy, valor: 35 },
+  { id: 12, nome: "Clã Vortex", descricao: "➡️ Um clã de alto nível para jogadores experientes.", imagens:["/cla.png"], categoria: "Clãs", icon: faTrophy, valor: 60 },
+  { id: 13, nome: "Token Prata", descricao: "➡️ Troque por itens exclusivos na loja de tokens.", imagens:["/token.png"], categoria: "Token de Troca", icon: faStar, valor: 10 },
+  { id: 14, nome: "Token Ouro", descricao: "➡️ Acesse itens raros disponíveis apenas com tokens.",imagens:["/token.png"],  categoria: "Token de Troca", icon: faStar, valor: 25 },
+  { id: 15, nome: "Token Platina", descricao: "➡️ O token mais valioso, com acesso aos itens mais cobiçados.", imagens:["/token.png"], categoria: "Token de Troca", icon: faStar, valor: 45 },
  
 ]
 
